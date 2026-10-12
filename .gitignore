@@ -1,0 +1,23 @@
+build/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+
+# Local Xcode and macOS output
+DerivedData/
+*.xcarchive
+
+# Local Sites metadata and Web build (not part of the native FLIP repository)
+Web/
+.openai/
+
+# Signing and local secrets
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.cer
+*.pem
+*.key
+.env
+.env.*

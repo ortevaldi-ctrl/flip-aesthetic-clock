@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00000000000000000000000 /* Sources/FLIP/Backgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000000 /* Sources/FLIP/Backgrounds.swift */; };
+		B00000000000000000000001 /* Sources/FLIP/ClockScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000001 /* Sources/FLIP/ClockScreen.swift */; };
+		B00000000000000000000002 /* Sources/FLIP/FLIPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000002 /* Sources/FLIP/FLIPApp.swift */; };
+		B00000000000000000000003 /* Sources/FLIP/FlipCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000003 /* Sources/FLIP/FlipCard.swift */; };
+		B00000000000000000000004 /* Sources/FLIP/TimeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000004 /* Sources/FLIP/TimeEngine.swift */; };
+		B0000000000000000000000A /* Sources/FLIP/BackgroundGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000A /* Sources/FLIP/BackgroundGallery.swift */; };
+		B0000000000000000000000B /* Sources/FLIP/ClockPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000B /* Sources/FLIP/ClockPreferences.swift */; };
+		B0000000000000000000000C /* Sources/FLIP/ControlsActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000C /* Sources/FLIP/ControlsActivity.swift */; };
+		B0000000000000000000000D /* Sources/FLIP/CollectionBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000D /* Sources/FLIP/CollectionBackground.swift */; };
+		B0000000000000000000000E /* Sources/FLIP/PremiumBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000E /* Sources/FLIP/PremiumBackground.swift */; };
+		B0000000000000000000000F /* Sources/FLIP/FavoritesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000F /* Sources/FLIP/FavoritesStore.swift */; };
+		B00000000000000000000010 /* Sources/FLIP/WindowVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000010 /* Sources/FLIP/WindowVisibility.swift */; };
+		B00000000000000000000011 /* Sources/FLIP/ClockFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000011 /* Sources/FLIP/ClockFace.swift */; };
+		B00000000000000000000012 /* Resources/FLIP-Terminal.icns in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000012 /* Resources/FLIP-Terminal.icns */; };
+		B00000000000000000000013 /* Sources/Shared/Countdown/CountdownState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000013 /* Sources/Shared/Countdown/CountdownState.swift */; };
+		B00000000000000000000014 /* Sources/Shared/Countdown/CountdownController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000014 /* Sources/Shared/Countdown/CountdownController.swift */; };
+		B00000000000000000000015 /* Sources/Shared/Countdown/CountdownNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000015 /* Sources/Shared/Countdown/CountdownNotifications.swift */; };
+		B00000000000000000000016 /* Sources/Shared/Countdown/CountdownPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000016 /* Sources/Shared/Countdown/CountdownPersistence.swift */; };
+		B00000000000000000000017 /* Sources/FLIP/Countdown/MacCountdownServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000017 /* Sources/FLIP/Countdown/MacCountdownServices.swift */; };
+		B00000000000000000000018 /* Sources/FLIP/Countdown/MacCountdownSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000018 /* Sources/FLIP/Countdown/MacCountdownSession.swift */; };
+		B00000000000000000000019 /* Sources/FLIP/Countdown/MacCountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000019 /* Sources/FLIP/Countdown/MacCountdownView.swift */; };
+		E10000000000000000000002 /* Resources/CountdownAlarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = E10000000000000000000001 /* Resources/CountdownAlarm.wav */; };
+		F20000000000000000000001 /* Sources/Widget/WidgetClockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001 /* Sources/Widget/WidgetClockModel.swift */; };
+		F20000000000000000000002 /* Sources/Widget/WidgetClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000002 /* Sources/Widget/WidgetClockView.swift */; };
+		F20000000000000000000003 /* Sources/Widget/WidgetLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000003 /* Sources/Widget/WidgetLink.swift */; };
+		F20000000000000000000004 /* Sources/Widget/FLIPClockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000004 /* Sources/Widget/FLIPClockWidget.swift */; };
+		F20000000000000000000010 /* Sources/Widget/WidgetLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000003 /* Sources/Widget/WidgetLink.swift */; };
+		F20000000000000000000011 /* FLIPWidgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F10000000000000000000010 /* FLIPWidgets.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F30000000000000000000008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30000000000000000000001;
+			remoteInfo = FLIPWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F30000000000000000000006 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F20000000000000000000011 /* FLIPWidgets.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000000 /* Sources/FLIP/Backgrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/Backgrounds.swift; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000001 /* Sources/FLIP/ClockScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/ClockScreen.swift; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000002 /* Sources/FLIP/FLIPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/FLIPApp.swift; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000003 /* Sources/FLIP/FlipCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/FlipCard.swift; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000004 /* Sources/FLIP/TimeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/TimeEngine.swift; sourceTree = SOURCE_ROOT; };
+		A0000000000000000000000A /* Sources/FLIP/BackgroundGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/BackgroundGallery.swift; sourceTree = SOURCE_ROOT; };
+		A0000000000000000000000B /* Sources/FLIP/ClockPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/ClockPreferences.swift; sourceTree = SOURCE_ROOT; };
+		A0000000000000000000000C /* Sources/FLIP/ControlsActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/ControlsActivity.swift; sourceTree = SOURCE_ROOT; };
+		A0000000000000000000000D /* Sources/FLIP/CollectionBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/CollectionBackground.swift; sourceTree = SOURCE_ROOT; };
+		A0000000000000000000000E /* Sources/FLIP/PremiumBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/PremiumBackground.swift; sourceTree = SOURCE_ROOT; };
+		A0000000000000000000000F /* Sources/FLIP/FavoritesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/FavoritesStore.swift; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000010 /* Sources/FLIP/WindowVisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/WindowVisibility.swift; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000011 /* Sources/FLIP/ClockFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/ClockFace.swift; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000012 /* Resources/FLIP-Terminal.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Resources/FLIP-Terminal.icns"; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000013 /* Sources/Shared/Countdown/CountdownState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Shared/Countdown/CountdownState.swift; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000014 /* Sources/Shared/Countdown/CountdownController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Shared/Countdown/CountdownController.swift; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000015 /* Sources/Shared/Countdown/CountdownNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Shared/Countdown/CountdownNotifications.swift; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000016 /* Sources/Shared/Countdown/CountdownPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Shared/Countdown/CountdownPersistence.swift; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000017 /* Sources/FLIP/Countdown/MacCountdownServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/Countdown/MacCountdownServices.swift; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000018 /* Sources/FLIP/Countdown/MacCountdownSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/Countdown/MacCountdownSession.swift; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000019 /* Sources/FLIP/Countdown/MacCountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/FLIP/Countdown/MacCountdownView.swift; sourceTree = SOURCE_ROOT; };
+		C00000000000000000000006 /* FLIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = FLIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10000000000000000000001 /* Resources/CountdownAlarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Resources/CountdownAlarm.wav; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000001 /* Sources/Widget/WidgetClockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Widget/WidgetClockModel.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000002 /* Sources/Widget/WidgetClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Widget/WidgetClockView.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000003 /* Sources/Widget/WidgetLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Widget/WidgetLink.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000004 /* Sources/Widget/FLIPClockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Widget/FLIPClockWidget.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000010 /* FLIPWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; path = FLIPWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10000000000000000000011 /* Sources/Widget/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Sources/Widget/Info.plist; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000012 /* Sources/Widget/FLIPWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sources/Widget/FLIPWidget.entitlements; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F30000000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93C7FB683079B5C5008C3E2F /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				E10000000000000000000001 /* Resources/CountdownAlarm.wav */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		C00000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000001 /* Sources/Widget/WidgetClockModel.swift */,
+				F10000000000000000000002 /* Sources/Widget/WidgetClockView.swift */,
+				F10000000000000000000003 /* Sources/Widget/WidgetLink.swift */,
+				F10000000000000000000004 /* Sources/Widget/FLIPClockWidget.swift */,
+				F10000000000000000000011 /* Sources/Widget/Info.plist */,
+				F10000000000000000000012 /* Sources/Widget/FLIPWidget.entitlements */,
+				A00000000000000000000019 /* Sources/FLIP/Countdown/MacCountdownView.swift */,
+				A00000000000000000000018 /* Sources/FLIP/Countdown/MacCountdownSession.swift */,
+				A00000000000000000000017 /* Sources/FLIP/Countdown/MacCountdownServices.swift */,
+				A00000000000000000000016 /* Sources/Shared/Countdown/CountdownPersistence.swift */,
+				A00000000000000000000015 /* Sources/Shared/Countdown/CountdownNotifications.swift */,
+				A00000000000000000000014 /* Sources/Shared/Countdown/CountdownController.swift */,
+				A00000000000000000000013 /* Sources/Shared/Countdown/CountdownState.swift */,
+				A00000000000000000000012 /* Resources/FLIP-Terminal.icns */,
+				A00000000000000000000011 /* Sources/FLIP/ClockFace.swift */,
+				A00000000000000000000010 /* Sources/FLIP/WindowVisibility.swift */,
+				A0000000000000000000000F /* Sources/FLIP/FavoritesStore.swift */,
+				A0000000000000000000000E /* Sources/FLIP/PremiumBackground.swift */,
+				A0000000000000000000000D /* Sources/FLIP/CollectionBackground.swift */,
+				A0000000000000000000000C /* Sources/FLIP/ControlsActivity.swift */,
+				A0000000000000000000000B /* Sources/FLIP/ClockPreferences.swift */,
+				A0000000000000000000000A /* Sources/FLIP/BackgroundGallery.swift */,
+				A00000000000000000000000 /* Sources/FLIP/Backgrounds.swift */,
+				A00000000000000000000001 /* Sources/FLIP/ClockScreen.swift */,
+				A00000000000000000000002 /* Sources/FLIP/FLIPApp.swift */,
+				A00000000000000000000003 /* Sources/FLIP/FlipCard.swift */,
+				A00000000000000000000004 /* Sources/FLIP/TimeEngine.swift */,
+				C00000000000000000000004 /* Products */,
+				93C7FB683079B5C5008C3E2F /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		C00000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000006 /* FLIP.app */,
+				F10000000000000000000010 /* FLIPWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C00000000000000000000005 /* FLIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00000000000000000000002 /* Build configuration list for PBXNativeTarget "FLIP" */;
+			buildPhases = (
+				C00000000000000000000007 /* Sources */,
+				C00000000000000000000010 /* Resources */,
+				F30000000000000000000006 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30000000000000000000007 /* PBXTargetDependency */,
+			);
+			name = FLIP;
+			productName = FLIP;
+			productReference = C00000000000000000000006 /* FLIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F30000000000000000000001 /* FLIPWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30000000000000000000002 /* Build configuration list for PBXNativeTarget "FLIPWidgets" */;
+			buildPhases = (
+				F30000000000000000000003 /* Sources */,
+				F30000000000000000000004 /* Frameworks */,
+				F30000000000000000000005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLIPWidgets;
+			productName = FLIPWidgets;
+			productReference = F10000000000000000000010 /* FLIPWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C00000000000000000000002 /* Build configuration list for PBXNativeTarget "FLIP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C00000000000000000000003;
+			productRefGroup = C00000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C00000000000000000000005 /* FLIP */,
+				F30000000000000000000001 /* FLIPWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00000000000000000000010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10000000000000000000002 /* Resources/CountdownAlarm.wav in Resources */,
+				B00000000000000000000012 /* Resources/FLIP-Terminal.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30000000000000000000005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20000000000000000000010 /* Sources/Widget/WidgetLink.swift in Sources */,
+				B00000000000000000000019 /* Sources/FLIP/Countdown/MacCountdownView.swift in Sources */,
+				B00000000000000000000018 /* Sources/FLIP/Countdown/MacCountdownSession.swift in Sources */,
+				B00000000000000000000017 /* Sources/FLIP/Countdown/MacCountdownServices.swift in Sources */,
+				B00000000000000000000016 /* Sources/Shared/Countdown/CountdownPersistence.swift in Sources */,
+				B00000000000000000000015 /* Sources/Shared/Countdown/CountdownNotifications.swift in Sources */,
+				B00000000000000000000014 /* Sources/Shared/Countdown/CountdownController.swift in Sources */,
+				B00000000000000000000013 /* Sources/Shared/Countdown/CountdownState.swift in Sources */,
+				B00000000000000000000011 /* Sources/FLIP/ClockFace.swift in Sources */,
+				B00000000000000000000010 /* Sources/FLIP/WindowVisibility.swift in Sources */,
+				B0000000000000000000000F /* Sources/FLIP/FavoritesStore.swift in Sources */,
+				B0000000000000000000000E /* Sources/FLIP/PremiumBackground.swift in Sources */,
+				B0000000000000000000000D /* Sources/FLIP/CollectionBackground.swift in Sources */,
+				B0000000000000000000000C /* Sources/FLIP/ControlsActivity.swift in Sources */,
+				B0000000000000000000000B /* Sources/FLIP/ClockPreferences.swift in Sources */,
+				B0000000000000000000000A /* Sources/FLIP/BackgroundGallery.swift in Sources */,
+				B00000000000000000000000 /* Sources/FLIP/Backgrounds.swift in Sources */,
+				B00000000000000000000001 /* Sources/FLIP/ClockScreen.swift in Sources */,
+				B00000000000000000000002 /* Sources/FLIP/FLIPApp.swift in Sources */,
+				B00000000000000000000003 /* Sources/FLIP/FlipCard.swift in Sources */,
+				B00000000000000000000004 /* Sources/FLIP/TimeEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20000000000000000000001 /* Sources/Widget/WidgetClockModel.swift in Sources */,
+				F20000000000000000000002 /* Sources/Widget/WidgetClockView.swift in Sources */,
+				F20000000000000000000003 /* Sources/Widget/WidgetLink.swift in Sources */,
+				F20000000000000000000004 /* Sources/Widget/FLIPClockWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F30000000000000000000007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30000000000000000000001 /* FLIPWidgets */;
+			targetProxy = F30000000000000000000008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C00000000000000000000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57PG39LTVS;
+				INFOPLIST_FILE = Info.plist;
+				CODE_SIGN_ENTITLEMENTS = Sources/FLIP/FLIP.entitlements;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flip.aestheticclock;
+				PRODUCT_NAME = FLIP;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C00000000000000000000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57PG39LTVS;
+				INFOPLIST_FILE = Info.plist;
+				CODE_SIGN_ENTITLEMENTS = Sources/FLIP/FLIP.entitlements;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flip.aestheticclock;
+				PRODUCT_NAME = FLIP;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F40000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Sources/Widget/FLIPWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57PG39LTVS;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FLIP_WIDGET_BUNDLE_IDENTIFIER = com.flip.aestheticclock.widgets;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FLIP_WIDGET_BUNDLE_IDENTIFIER)";
+				PRODUCT_MODULE_NAME = FLIPWidgets;
+				PRODUCT_NAME = FLIPWidgets;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F40000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Sources/Widget/FLIPWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57PG39LTVS;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FLIP_WIDGET_BUNDLE_IDENTIFIER = com.flip.aestheticclock.widgets;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FLIP_WIDGET_BUNDLE_IDENTIFIER)";
+				PRODUCT_MODULE_NAME = FLIPWidgets;
+				PRODUCT_NAME = FLIPWidgets;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00000000000000000000002 /* Build configuration list for PBXNativeTarget "FLIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00000000000000000000008 /* Debug */,
+				C00000000000000000000009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30000000000000000000002 /* Build configuration list for PBXNativeTarget "FLIPWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40000000000000000000001 /* Debug */,
+				F40000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C00000000000000000000001 /* Project object */;
+}
